@@ -1,0 +1,63 @@
+body {
+    background-image: url(archivos/foto2.jpg);
+     color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 30px;
+    background: black;
+    margin-top: 10px;
+}
+.poke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 9px 8px 1px 2px;
+   
+    height: 20vh;
+    width: 40vh;
+    border-radius: 30px;
+    padding: 5px;
+
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color:black;
+    border: solid  rgb(251, 5, 5);
+    border-radius: 30px;
+   
+}
+
+
+input{ 
+    display: flex;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    height: 30px;
+    width: 200px;
+    border-radius: 40px;
+    padding: 6px;
+    color: black;
+    border: solid rgb(247, 4, 4) 3px;
+
+}
